@@ -12,6 +12,7 @@ os.path.splitext(x)[1]=='.py'])
 
 from datetime import datetime
 import os
+import this
 
 pwd = os.path.abspath('.')
 
@@ -23,3 +24,4 @@ for f in os.listdir(pwd):
     mtime = datetime.fromtimestamp(os.path.getmtime(f)).strftime('%Y-%m-%d %H:%M')
     flag = '/' if os.path.isdir(f) else ''
     print('%9d  %2s  %s%s' % (fsize, mtime, f, flag))
+print(2**100)
