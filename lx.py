@@ -36,8 +36,7 @@ class Spider:
     def saveBrief(self, content, name):
         fileName = name + "/" + name + ".txt"
         f = open(fileName, "w+")
-        print
-        u"正在偷偷保存她的个人信息为", fileName
+        print(u"正在偷偷保存她的个人信息为", fileName)
         f.write(content.encode('utf-8'))
 
     # 传入图片地址，文件名，保存单张图片
