@@ -4,7 +4,7 @@ from urllib import request
 from bs4 import BeautifulSoup
 import re
 
-urls = ['http://www.cosplay0.com/cosplayfuli/20180502/991_{}.html'.format(str(i)) for i in range(2,17)]
+urls = ['http://www.cosplay0.com/cosplayfuli/20180226/534_{}.html'.format(str(i)) for i in range(2,14)]
 
 for url in urls:
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0'}
@@ -12,7 +12,7 @@ for url in urls:
     page_info = request.urlopen(page).read().decode('utf-8')
     soup = BeautifulSoup(page_info, 'html.parser')
     # Beautiful Soup和正则表达式结合，提取出所有图片的链接（img标签中，class=**，以.jpg结尾的链接）
-    links = soup.find_all('img',alt=r'绝对领域贞德Cosplay姐妹花黑色内衣诱惑福利图片', src=re.compile(r'.jpg$'))
+    links = soup.find_all('img',alt=r'绝对领域女仆远坂凛美女私房黑丝诱惑Cosplay足控福利', src=re.compile(r'.jpg$'))
     with open(r'F:\pic\url.txt','a') as file:
         for link in links:
             file.write(url+'\n'+link.attrs['src']+'\n')
