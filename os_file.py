@@ -16,12 +16,12 @@ import this
 
 pwd = os.path.abspath('.')
 
-print('      Size     Last Modified  Name')
-print('------------------------------------------------------------')
+print('    Size   Last Modified     Name')
+print('-'*100)
 
 for f in os.listdir(pwd):
     fsize = os.path.getsize(f)
     mtime = datetime.fromtimestamp(os.path.getmtime(f)).strftime('%Y-%m-%d %H:%M')
     flag = '/' if os.path.isdir(f) else ''
     print('%9d  %2s  %s%s' % (fsize, mtime, f, flag))
-print(2**100)
+print('-'*100)
