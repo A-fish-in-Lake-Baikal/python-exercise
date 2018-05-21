@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab952736-54ba-4e3c-ba04-bc55b7ca66b5" name="Default" comment="" />
+    <list default="true" id="ab952736-54ba-4e3c-ba04-bc55b7ca66b5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../automation-testing/test_all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing/uiautomation/testcase1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing/uiautomation/testcase1/test_mous.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expert-func/func-recursion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing/.idea/automation-testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing/.idea/automation-testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing/uiautomation/test_report/2018-04-26-13_57_28HTMLtemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing/uiautomation/testcase/Testrunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing/uiautomation/testcase/Testrunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing/uiautomation/testcase/test_mous.py" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing/uiautomation/testcase/test_mous1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDP-server.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/UDP-server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDP_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/UDP_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/os_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/os_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/send_email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/tcp_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/tcp客户端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp编程.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/tcp编程.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,48 +32,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tcp编程.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tcp编程.py">
+      <file leaf-file-name="func-recursion.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/expert-func/func-recursion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="136">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tcp_server.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tcp_server.py">
+      <file leaf-file-name="os_file.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/os_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#254#283#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logger.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../automation-testing/uiautomation/framework/logger.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" column="68" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cosplay_picture.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosplay_picture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tcp客户端.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tcp客户端.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -73,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/os_file.py" />
         <option value="$PROJECT_DIR$/send_email.py" />
         <option value="$PROJECT_DIR$/sqlite3.py" />
         <option value="$PROJECT_DIR$/sqlite_3.py" />
@@ -81,6 +76,8 @@
         <option value="$PROJECT_DIR$/tcp端口监听.py" />
         <option value="$PROJECT_DIR$/tcp客户端.py" />
         <option value="$PROJECT_DIR$/tcp_server.py" />
+        <option value="$PROJECT_DIR$/expert-func/func-recursion.py" />
+        <option value="$PROJECT_DIR$/os_file.py" />
       </list>
     </option>
   </component>
@@ -89,7 +86,9 @@
     <option name="width" value="1091" />
     <option name="height" value="775" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -102,6 +101,11 @@
               <item name="python-exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-exercise" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python-exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="expert-func" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -111,7 +115,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-1.1.1/resources/app/git/mingw64/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\python-exercise\WEB" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,7 +134,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tcp客户端">
+  <component name="RunManager" selected="Python.os_file">
+    <configuration name="func-recursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/expert-func" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/expert-func/func-recursion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="os_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/os_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="sqlite3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,7 +219,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tcp编程.py" />
+      <option name="SCRIPT_NAME" value="E:\GitHub\python-exercise\WEB\tcp编程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,13 +265,13 @@
       <item itemvalue="Python.sqlite3" />
       <item itemvalue="Python.sqlite_3" />
       <item itemvalue="Python.tcp编程" />
-      <item itemvalue="Python.tcp端口监听" />
-      <item itemvalue="Python.tcp客户端" />
+      <item itemvalue="Python.func-recursion" />
+      <item itemvalue="Python.os_file" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tcp客户端" />
-        <item itemvalue="Python.tcp端口监听" />
+        <item itemvalue="Python.os_file" />
+        <item itemvalue="Python.func-recursion" />
         <item itemvalue="Python.tcp编程" />
         <item itemvalue="Python.sqlite_3" />
         <item itemvalue="Python.sqlite3" />
@@ -250,12 +295,12 @@
     <frame x="676" y="0" width="1091" height="775" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26210827" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25674418" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007587" side_tool="true" weight="0.5" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5014245" side_tool="true" weight="0.30744338" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924126" weight="0.30744338" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985755" weight="0.29641184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.21521036" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -273,6 +318,40 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WEB/tcp编程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB/tcp_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../automation-testing/uiautomation/framework/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosplay_picture.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB/tcp客户端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/os_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -283,7 +362,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/send_email.py">
+    <entry file="file://$PROJECT_DIR$/WEB/send_email.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
@@ -311,9 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -337,17 +413,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/os_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="e#254#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/send_email.py">
+    <entry file="file://$PROJECT_DIR$/WEB/send_email.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
@@ -370,9 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -386,7 +449,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tcp编程.py">
+    <entry file="file://$PROJECT_DIR$/WEB/tcp编程.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
@@ -395,15 +458,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../automation-testing/uiautomation/framework/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="289">
           <caret line="19" column="68" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cosplay_picture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/server.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -412,9 +473,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tcp_server.py">
+    <entry file="file://$PROJECT_DIR$/WEB/tcp_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="391">
           <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -422,10 +483,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tcp客户端.py">
+    <entry file="file://$PROJECT_DIR$/WEB/tcp客户端.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB/001.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dump.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosplay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../automation-testing/uiautomation/framework/browser_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/os_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#254#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expert-func/func-recursion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
