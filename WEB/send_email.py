@@ -10,18 +10,18 @@ def _format_addr(s):
     name, addr = parseaddr(s)
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
-with open (r'E:\python\RC2.3.3\test_report\2018-05-17-14_30_42HTMLtemplate.html','r') as file:
-    text = file.read()
-
+with open (r'E:\python\RC2.3.3\test_report\2018-05-22-16_18_25HTMLtemplate.html','rb') as file:
+    text=file.read()
+    print('-------------------------------------------%s' %text)
 from_addr = '3536046934@qq.com'
 password = 'ilxhssalsnvpchjg'
-to_addr = '3409256447@qq.com'
+to_addr = 'mawc@parasaga.com'
 smtp_server = 'smtp.qq.com'
 
-msg = MIMEText("马维畅是你大爷",'plain', 'utf-8')
-msg['From'] = _format_addr('你大爷的来信 <%s>' % from_addr)
+msg = MIMEText(text,'html', 'utf-8')
+msg['From'] = _format_addr('tester <%s>' % from_addr)
 msg['To'] = _format_addr('管理员 <%s>' % to_addr)
-msg['Subject'] = Header('马大爷', 'utf-8').encode()
+msg['Subject'] = Header('自动化测试报告', 'utf-8').encode()
 
 server = smtplib.SMTP(smtp_server, 25)
 server.set_debuglevel(1)
