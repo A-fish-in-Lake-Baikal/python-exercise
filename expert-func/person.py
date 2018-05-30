@@ -10,15 +10,19 @@ class person(object):
     def giveraise(self,percent):
         self.pay = int(self.pay*(1+percent))
     def __str__(self):
-        return '[person:%s,%s]' %(self.name,self.pay)
+        return '[person:%s,%s,%s]' %(self.name,self.job,self.pay)
 
 class manager(person):
-        def giveraise(self,percent,bonus=.10):
-            person.giveraise(self,percent+bonus)
+    def __init__(self,name,pay):
+        person.__init__(self,name,'mgr',pay)
+    def giveraise(self,percent,bonus=.10):
+        person.giveraise(self,percent+bonus)
+            
+
 if __name__=='__main__':
     b = person('Bob smitch')
     s = person('sue jones','It',5000)
-    c = manager('tomsen wils','banzhuan',6000)
+    c = manager('tomsen wils',6000)
     print(b)
     print(s)
     print(c)
