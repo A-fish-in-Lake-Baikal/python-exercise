@@ -1,0 +1,35 @@
+总站首页
+--注册按钮
+    //*[@id='register_user' and text()='注册']
+--登录按钮
+    //*[@id='login_btn']/a
+    --用户名输入框
+        //input[@id='login-name']
+    --密码输入框
+        //input[@id='login-pass']
+    --登录
+        //*[@class='btn_c']
+--上传按钮
+    //*[text()='上传']
+--退出按钮
+    //*[@class='glyphicon glyphicon-log-out']
+--搜索输入框
+    //*[@id='search_input_master']
+--搜索按钮
+    //*[@class='btn btn_master']
+--最新推荐
+    //*[text()='最新推荐']
+--最新上传
+    //*[text()='最新上传']
+--最新排行
+    //*[text()='最新排行']
+--好评排行
+    //*[text()='好评排行']
+--所有站点
+    //*[text()='所有站点']
+--数据统计
+    //*[text()='数据统计']
+--最新公告
+    //*[text()='最新排行']
+--应用与下载
+    //*[text()='应用与下载']
