@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>马维畅练习</title>
+    <style>
+        a:link {color:#000000;}      /* 未访问链接*/
+        a:visited {color:#00FF00;}  /* 已访问链接 */
+        a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 */
+        a:active {color:#0000FF;}
+        body
+        {
+            /*background-image: url("003.jpg");*/
+            /*background-repeat: no-repeat;*/
+            background-position: center top;
+            background-color: #66cc66;
+        }
+        #demo
+        {
+            text-align: right;
+            color: blue;
+        }
+        p.center
+        {
+            text-align: center;
+            color: orange;
+            font-size: 2em;
+        }
+        p.main
+        {
+            text-align: justify;
+            font-family: mononoki;
+            font-size: 30px;
+        }
+    </style>
+    <script>
+        function displayDate(){
+	document.getElementById("demo").innerHTML=Date();
+}
+    </script>
+</head>
+<body>
+<h1>这是我的第一个脚本</h1>
+<P class="center">这是段落的开头</P>
+<p id="demo">这是一个时间</p>
+<p class="center">段落居中</p>
+<p class="detail">
+    <b>
+        <a href="www.cosplay0.com" target="_parent">cosplay地址</a>
+    </b>
+</p>
+<p class="main">"When I was young, I dreamed of changing the world.When I grew up, I found I couldn't change the world.When I entered old age,
+I found that I could not change our country. My last wish was to change my family.When I'm lying in bed, dying,
+I suddenly realized that if I only changed myself at first, then I might change my family.With the help and encouragement of my family, I may do something for the country.And then, who knows?I might even change the world.</p>
+
+<button type="button" onclick="displayDate()">显示日期</button>
+
+</body>
+</html>
