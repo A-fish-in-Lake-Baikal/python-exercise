@@ -1,8 +1,9 @@
-from flask import Flask
+from flask import Flask,flash,redirect
 from flask import render_template
 from .forms import LoginForm
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'you-will-never-guess'
 
 
 @app.route('/')
@@ -35,14 +36,17 @@ def page():
                            user=user,
                            posts=posts,
                            contents=contents)
-@app.route('/login',methods=['GET','POST'])
+
+@app.route('/login', methods = ['GET', 'POST'])
 def login():
     form = LoginForm()
     if form.validate_on_submit():
-        flash('Login requested for OpenID="'+form.openid.data+'",remember_me'+str(form.remember_me.data))
-        return redirect('/index')
-
-    return render_template("login.html",title = 'sign in',form = form)
+        flash('Login requested for OpenID="' + form.openid.data + '", remember_me=' + str(form.remember_me.data))
+        return redirect('/page')
+    return render_template('login.html',
+        title = 'Sign In',
+        form = form,
+        providers = app.config['OPENID_PROVIDERS'])
 
 
 # if __name__ == '__main__':
