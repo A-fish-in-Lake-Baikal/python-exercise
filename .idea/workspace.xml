@@ -29,6 +29,7 @@
     <SUITE FILE_PATH="coverage/python_exercise$ab.coverage" NAME="判断字符串a是否以字符串b开头或结尾 Coverage Results" MODIFIED="1533733417834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
     <SUITE FILE_PATH="coverage/python_exercise$json.coverage" NAME="json解析 Coverage Results" MODIFIED="1534335417699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
     <SUITE FILE_PATH="coverage/python_exercise$Flask__untitled_app_py_.coverage" NAME="Flask (untitled/app.py) Coverage Results" MODIFIED="1538038901511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/python_exercise$time_convert.coverage" NAME="time_convert Coverage Results" MODIFIED="1539088457659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_exercise$.coverage" NAME="去掉字符串中不需要的字符 Coverage Results" MODIFIED="1533818976208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
     <SUITE FILE_PATH="coverage/python_exercise$Flask__microblog_app_app_py_.coverage" NAME="Flask (microblog/app/views.py) Coverage Results" MODIFIED="1538040892596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_exercise$Mssql.coverage" NAME="Mssql Coverage Results" MODIFIED="1533213102407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
@@ -54,10 +55,10 @@
           <entry key="project.closed" value="10" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -65,7 +66,7 @@
           <entry key="Python Console" value="36" />
           <entry key="cfg" value="1" />
           <entry key="html" value="345" />
-          <entry key="py" value="3365" />
+          <entry key="py" value="3693" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -74,21 +75,21 @@
           <entry key="HTML" value="345" />
           <entry key="Ini" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="3401" />
+          <entry key="Python" value="3729" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cfg" value="1" />
           <entry key="html" value="2" />
-          <entry key="py" value="26" />
+          <entry key="py" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
           <entry key="Ini" value="1" />
-          <entry key="Python" value="26" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
     </session>
@@ -102,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/WEB/requests1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <marker date="1539004346481" expanded="true" signature="116:121" ph="..." />
               </folding>
@@ -110,17 +111,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WEB/picdown.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
                 <element signature="e#66#81#0" expanded="true" />
                 <marker date="1539006254686" expanded="true" signature="135:139" ph="..." />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/time_convert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/温度转换.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -185,6 +200,7 @@
         <option value="$PROJECT_DIR$/microblog/app/views.py" />
         <option value="$PROJECT_DIR$/WEB/requests1.py" />
         <option value="$PROJECT_DIR$/WEB/picdown.py" />
+        <option value="$PROJECT_DIR$/time_convert.py" />
       </list>
     </option>
   </component>
@@ -194,7 +210,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1671" />
     <option name="y" value="182" />
     <option name="width" value="1294" />
@@ -208,7 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,15 +231,11 @@
               <item name="python-exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-exercise" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.picdown">
+  <component name="RunManager" selected="Python.time_convert">
     <configuration name="picdown" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -322,20 +333,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="microblog" />
+    <configuration name="time_convert" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\jinji\AppData\Local\Programs\Python\Python36-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/microblog/app" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/microblog/app/views.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/time_convert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -486,18 +497,18 @@
       <item itemvalue="Flask server.untitled" />
       <item itemvalue="Flask server.microblog" />
       <item itemvalue="Flask server.Flask (microblog/app/views.py)" />
-      <item itemvalue="Python.views" />
       <item itemvalue="Python.run (1)" />
       <item itemvalue="Python.requests1" />
       <item itemvalue="Python.picdown" />
+      <item itemvalue="Python.time_convert" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.time_convert" />
         <item itemvalue="Python.picdown" />
         <item itemvalue="Python.requests1" />
         <item itemvalue="Python.run (1)" />
         <item itemvalue="Flask server.Flask (microblog/app/views.py)" />
-        <item itemvalue="Python.views" />
       </list>
     </recent_temporary>
   </component>
@@ -525,13 +536,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1456" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930653" visible="true" weight="0.13939634" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930653" visible="true" weight="0.14019063" />
       <window_info id="Structure" order="1" sideWeight="0.5006935" side_tool="true" weight="0.23014587" />
       <window_info id="Favorites" order="2" sideWeight="0.5006935" side_tool="true" weight="0.23014587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4975728" weight="0.20150943" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4975728" visible="true" weight="0.20150943" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -583,14 +595,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="lx" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../automation-testing/uiautomation/testcase/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../automation-testing/test_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-530" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../automation-testing/uiautomation/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -753,7 +757,7 @@
     <entry file="file://$PROJECT_DIR$/WEB/requests1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <marker date="1539004346481" expanded="true" signature="116:121" ph="..." />
           </folding>
@@ -763,11 +767,21 @@
     <entry file="file://$PROJECT_DIR$/WEB/picdown.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
             <element signature="e#66#81#0" expanded="true" />
             <marker date="1539006254686" expanded="true" signature="135:139" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/温度转换.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time_convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
