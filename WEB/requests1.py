@@ -19,6 +19,6 @@ def GetHtmlText(url,kv):
 
 
 if __name__ == '__main__':
-    URL = "http://www.baidu.com"
+    URL = "http://mail.google.com"
     kv = {'wd':'python'}
     GetHtmlText(URL,kv)

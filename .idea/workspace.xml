@@ -8,12 +8,14 @@
       <change beforePath="$PROJECT_DIR$/os_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/os_file.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/python_exercise$views.coverage" NAME="views Coverage Results" MODIFIED="1538053195381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/microblog/app" />
     <SUITE FILE_PATH="coverage/python_exercise$spider_picture.coverage" NAME="spider_picture Coverage Results" MODIFIED="1540387251360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../spider/python爬虫开发与项目实战" />
     <SUITE FILE_PATH="coverage/python_exercise$Factorial.coverage" NAME="Factorial Coverage Results" MODIFIED="1540819980398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
@@ -21,9 +23,24 @@
     <SUITE FILE_PATH="coverage/python_exercise$History.coverage" NAME="History Coverage Results" MODIFIED="1533456323392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
     <SUITE FILE_PATH="coverage/python_exercise$picdown.coverage" NAME="picdown Coverage Results" MODIFIED="1539006256238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WEB" />
     <SUITE FILE_PATH="coverage/python_exercise$DayDayUp_2.coverage" NAME="DayDayUp_2 Coverage Results" MODIFIED="1539609987494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
+=======
+    <SUITE FILE_PATH="coverage/python_exercise$run.coverage" NAME="run Coverage Results" MODIFIED="1538040042697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/site" />
+    <SUITE FILE_PATH="coverage/python_exercise$Mssql.coverage" NAME="Mssql Coverage Results" MODIFIED="1533213102407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
+    <SUITE FILE_PATH="coverage/python_exercise$picdown.coverage" NAME="picdown Coverage Results" MODIFIED="1539006256238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WEB" />
+    <SUITE FILE_PATH="coverage/python_exercise$apps.coverage" NAME="apps Coverage Results" MODIFIED="1532608804377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webpage/polls" />
+    <SUITE FILE_PATH="coverage/python_exercise$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1538140631814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/microblog" />
+    <SUITE FILE_PATH="coverage/python_exercise$History.coverage" NAME="History Coverage Results" MODIFIED="1533456323392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
+    <SUITE FILE_PATH="coverage/python_exercise$time_convert.coverage" NAME="time_convert Coverage Results" MODIFIED="1539154001843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_exercise$binary_file.coverage" NAME="binary file Coverage Results" MODIFIED="1538038643920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO-file" />
+    <SUITE FILE_PATH="coverage/python_exercise$.coverage" NAME="去掉字符串中不需要的字符 Coverage Results" MODIFIED="1533818976208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
+    <SUITE FILE_PATH="coverage/python_exercise$resplit.coverage" NAME="resplit Coverage Results" MODIFIED="1533733185544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
     <SUITE FILE_PATH="coverage/python_exercise$ab.coverage" NAME="判断字符串a是否以字符串b开头或结尾 Coverage Results" MODIFIED="1533733417834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
+    <SUITE FILE_PATH="coverage/python_exercise$Flask__microblog_app_views_py_.coverage" NAME="Flask (microblog/app/views.py) Coverage Results" MODIFIED="1538115356626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_exercise$json.coverage" NAME="json解析 Coverage Results" MODIFIED="1534335417699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
+    <SUITE FILE_PATH="coverage/python_exercise$biqukan.coverage" NAME="biqukan Coverage Results" MODIFIED="1533042814554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../spider/python爬虫开发与项目实战/requests" />
     <SUITE FILE_PATH="coverage/python_exercise$Flask__untitled_app_py_.coverage" NAME="Flask (untitled/app.py) Coverage Results" MODIFIED="1538038901511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/python_exercise$time_convert.coverage" NAME="time_convert Coverage Results" MODIFIED="1539088457659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_exercise$.coverage" NAME="去掉字符串中不需要的字符 Coverage Results" MODIFIED="1533818976208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
     <SUITE FILE_PATH="coverage/python_exercise$maoyantop100.coverage" NAME="maoyantop100 Coverage Results" MODIFIED="1540905601586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../spider/python爬虫开发与项目实战/requests" />
@@ -42,6 +59,12 @@
     <SUITE FILE_PATH="coverage/python_exercise$Flask__microblog_app_views_py_.coverage" NAME="Flask (microblog/app/views.py) Coverage Results" MODIFIED="1538115356626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_exercise$biqukan.coverage" NAME="biqukan Coverage Results" MODIFIED="1533042814554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../spider/python爬虫开发与项目实战/requests" />
     <SUITE FILE_PATH="coverage/python_exercise$KochDraw.coverage" NAME="KochDraw Coverage Results" MODIFIED="1540992930452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expert-func" />
+=======
+    <SUITE FILE_PATH="coverage/python_exercise$Flask__microblog_app_app_py_.coverage" NAME="Flask (microblog/app/views.py) Coverage Results" MODIFIED="1538040892596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_exercise$requests1.coverage" NAME="requests1 Coverage Results" MODIFIED="1539855746645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WEB" />
+    <SUITE FILE_PATH="coverage/python_exercise$manage.coverage" NAME="manage Coverage Results" MODIFIED="1532612197670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webpage" />
+    <SUITE FILE_PATH="coverage/python_exercise$views.coverage" NAME="views Coverage Results" MODIFIED="1538053195381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/microblog/app" />
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -108,6 +131,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/expert-func/KochDraw.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,10 +141,34 @@
                 <marker date="1540992355635" expanded="true" signature="99:104" ph="..." />
                 <marker date="1540992355635" expanded="true" signature="244:245" ph="..." />
               </folding>
+=======
+      <file leaf-file-name="requests1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WEB/requests1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="time_convert.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/time_convert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="温度转换.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/温度转换.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -180,9 +228,9 @@
         <option value="$PROJECT_DIR$/microblog/app/templates/login.html" />
         <option value="$PROJECT_DIR$/microblog/app/__init__.py" />
         <option value="$PROJECT_DIR$/microblog/app/views.py" />
-        <option value="$PROJECT_DIR$/WEB/requests1.py" />
         <option value="$PROJECT_DIR$/WEB/picdown.py" />
         <option value="$PROJECT_DIR$/time_convert.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/expert-func/DayDayUp_2.py" />
         <option value="$PROJECT_DIR$/expert-func/DayDayUp.py" />
         <option value="$PROJECT_DIR$/expert-func/TextProBar.py" />
@@ -192,6 +240,9 @@
         <option value="$PROJECT_DIR$/../spider/python爬虫开发与项目实战/spider_picture.py" />
         <option value="$PROJECT_DIR$/expert-func/Factorial.py" />
         <option value="$PROJECT_DIR$/expert-func/KochDraw.py" />
+=======
+        <option value="$PROJECT_DIR$/WEB/requests1.py" />
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
       </list>
     </option>
   </component>
@@ -201,10 +252,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1447" />
+=======
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -276,8 +338,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.KochDraw">
     <configuration name="Factorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.requests1">
+    <configuration name="picdown" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
       <module name="python-exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,9 +362,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="KochDraw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-exercise" />
@@ -317,9 +381,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="maoyantop100" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
@@ -339,9 +400,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="requests1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
@@ -361,9 +419,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="spider_picture" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
@@ -378,6 +433,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../spider/python爬虫开发与项目实战/spider_picture.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -386,6 +442,9 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
+=======
+      <option name="launchJavascriptDebuger" value="false" />
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
     </configuration>
     <configuration name="microblog" type="Python.FlaskServer" factoryName="Flask server">
       <module name="microblog" />
@@ -400,7 +459,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
     </configuration>
     <configuration name="untitled" type="Python.FlaskServer" factoryName="Flask server">
       <module name="untitled" />
@@ -415,7 +473,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <module name="automation-testing" />
@@ -427,7 +484,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <module name="automation-testing" />
@@ -446,7 +502,6 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <module name="automation-testing" />
@@ -462,7 +517,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Twisted Trial">
       <module name="automation-testing" />
@@ -477,7 +531,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="automation-testing" />
@@ -492,7 +545,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="automation-testing" />
@@ -508,7 +560,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Flask server.untitled" />
@@ -521,11 +572,19 @@
     </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.KochDraw" />
         <item itemvalue="Python.maoyantop100" />
         <item itemvalue="Python.Factorial" />
         <item itemvalue="Python.spider_picture" />
         <item itemvalue="Python.requests1" />
+=======
+        <item itemvalue="Python.requests1" />
+        <item itemvalue="Python.time_convert" />
+        <item itemvalue="Python.picdown" />
+        <item itemvalue="Python.run (1)" />
+        <item itemvalue="Flask server.Flask (microblog/app/views.py)" />
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
       </list>
     </recent_temporary>
   </component>
@@ -552,6 +611,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="1273" y="0" width="1294" height="1447" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930653" visible="true" weight="0.31229773" />
@@ -563,41 +623,54 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39969605" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299532" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42680094" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.31104198" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4975728" weight="0.32970452" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32970452" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4975728" weight="0.20062695" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42680094" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930653" visible="true" weight="0.14818764" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3298887" />
       <window_info anchor="right" id="Database" order="4" weight="0.32949126" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930653" visible="true" weight="0.27588996" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3298887" />
       <window_info id="Structure" order="1" sideWeight="0.5006935" side_tool="true" weight="0.23014587" />
       <window_info id="Favorites" order="2" sideWeight="0.5006935" side_tool="true" weight="0.23014587" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4975728" visible="true" weight="0.27554178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299532" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42680094" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.31104198" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4975728" weight="0.32970452" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32970452" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3298887" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.5006935" side_tool="true" weight="0.23014587" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930653" visible="true" weight="0.27588996" />
+      <window_info id="Structure" order="1" sideWeight="0.5006935" side_tool="true" weight="0.23014587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299532" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4975728" weight="0.32970452" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4975728" visible="true" weight="0.27554178" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" weight="0.32949126" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42680094" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.31104198" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3298887" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32970452" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,6 +755,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/quoteportal/scrapy.cfg" />
     <entry file="file://$PROJECT_DIR$/../spider/python爬虫开发与项目实战/requests/jiep.py" />
     <entry file="file://$PROJECT_DIR$/../spider/python爬虫开发与项目实战/requests/biqukan.py" />
@@ -717,92 +791,39 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WEB/new_file.py">
+=======
+    <entry file="file://$PROJECT_DIR$/WEB/requests1.py">
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        <state relative-caret-position="336">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/run.py" />
-    <entry file="file://$PROJECT_DIR$/site/app/app.py" />
-    <entry file="file://$PROJECT_DIR$/untitled/app.py" />
-    <entry file="file://$PROJECT_DIR$/baidu.html">
+    <entry file="file://$PROJECT_DIR$/温度转换.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sina.html">
+    <entry file="file://$PROJECT_DIR$/time_convert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" lean-forward="true" selection-end-line="7693" selection-end-column="7" />
+        <state relative-caret-position="322">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB/html1.html">
+    <entry file="file://$PROJECT_DIR$/WEB/requests1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="58" selection-end-column="7" />
+        <state relative-caret-position="336">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/温度转换.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/app/views.py">
+    <entry file="file://$PROJECT_DIR$/time_convert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/app/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/app/templates/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/app/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="322">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -839,8 +860,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WEB/requests1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="336">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -901,6 +923,13 @@
           </folding>
         </state>
       </provider>
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/温度转换.py">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
     </entry>
     <entry file="file://$PROJECT_DIR$/expert-func/CalPi.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -935,12 +964,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/expert-func/KochDraw.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="435">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding>
             <marker date="1540992355635" expanded="true" signature="99:104" ph="..." />
             <marker date="1540992355635" expanded="true" signature="244:245" ph="..." />
           </folding>
+=======
+        <state relative-caret-position="322">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB/requests1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+>>>>>>> 60650e94af4276d12b3e6808c56773a35671147c
         </state>
       </provider>
     </entry>
