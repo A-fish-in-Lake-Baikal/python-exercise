@@ -14,3 +14,11 @@ for i in range(scale+1):
     dur = time.perf_counter() - starttime
     print("\r{:^3.0f}%[{}->{}]{:.2f}s".format(c,a,b,dur),end="")
     time.sleep(0.1)
+
+# bfb = 100
+# for i in range(bfb+1):
+#     a = i * '*'
+#     b = (bfb-i) * '~'
+#     c = i%(bfb-1)
+#     print("\r{:3.0f}%[{}->{}]".format(c,a,b),end="")
+#     time.sleep(1)

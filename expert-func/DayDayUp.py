@@ -16,3 +16,13 @@ for i in range(365):
 
 
 print("向上:{:.2f}".format(dayup))
+
+
+
+
+dayup = 1.0
+for i in range(365):
+    if i % 7 in [6,0]:
+        dayup = dayup*(1-0.1)
+    else:
+        dayup = dayup*(1+0.1)

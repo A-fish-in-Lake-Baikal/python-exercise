@@ -19,7 +19,7 @@ if __name__ == '__main__':
     for word in words:
         counts[word] = counts.get(word,0)+1
     items = list(counts.items())
-    print(items)
+    # print(items)
     items.sort(key=lambda x:x[1],reverse=True)
     for i in range(10):
         word,count = items[i]
