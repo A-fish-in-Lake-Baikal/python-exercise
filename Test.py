@@ -3,35 +3,6 @@ import pymssql
 import socket
 
 
-
-
-# hostname = socket.gethostname()
-# # print(hostname)
-# count = {}
-#
-# conn = pymssql.connect(host=hostname,user="sa",password="MT19960318",database="PSUM9",charset="utf8")
-# cursor = conn.cursor()
-#
-#
-# cursor.execute('SELECT *  FROM [PSUM9].[dbo].[Para_Department]')
-# row = cursor.fetchone()
-# for row in cursor:
-#     # print("{}{}{}{}{}".format(row[1],row[2],row[3],row[4],row[5]))
-#     name = row[1]
-#     # print(name)
-#     count[name] = count.get("name",0) +1
-#     # print(count)
-#     # print("{}".format(row[1]))
-#
-# items = list(count.items())
-# items.sort(key=lambda x:x[1],reverse=True)
-# for i in range(10):
-#     name,number = items[i]
-#     print("{:<10}{:>10}".format(name,number))
-#
-# conn.close()
-
-
 class SQLServer(object):
     def __init__(self,host,user,password,database,charset):
         self.host = host
@@ -63,8 +34,8 @@ class SQLServer(object):
         self.conn.close()
 
 if __name__ == '__main__':
-    SQL = SQLServer(host='192.168.11.155',user='sa',password='MT19960318',database='PSUM9',charset='utf8')
-    count = SQL.ExecQuery(sql='SELECT *  FROM [PSUM9].[dbo].[Para_UserInfo]')
+    SQL = SQLServer(host='192.168.1.61',user='sa',password='test12#$%',database='PSUM9',charset='utf8')
+    count = SQL.ExecQuery(sql='SELECT *  FROM [PSUM9].[dbo].[Para_Department]')
     items = list(count.items())
     items.sort(key=lambda x:x[1],reverse=True)
     # for i in range(10):
@@ -73,4 +44,4 @@ if __name__ == '__main__':
     for i in range(len(items)):
         name,number = items[i]
         if number>1:
-            print("{:<10}{:>10}".format(name,number))
+            print("{:<20}{:>10}".format(name,number))

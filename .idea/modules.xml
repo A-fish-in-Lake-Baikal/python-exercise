@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/../automation-testing/.idea/automation-testing.iml" filepath="$PROJECT_DIR$/../automation-testing/.idea/automation-testing.iml" />
       <module fileurl="file://$PROJECT_DIR$/microblog/.idea/microblog.iml" filepath="$PROJECT_DIR$/microblog/.idea/microblog.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python-exercise.iml" filepath="$PROJECT_DIR$/.idea/python-exercise.iml" />
-      <module fileurl="file://$USER_HOME$/source/repos/.idea/repos.iml" filepath="$USER_HOME$/source/repos/.idea/repos.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spider/.idea/spider.iml" filepath="$PROJECT_DIR$/../spider/.idea/spider.iml" />
     </modules>
   </component>
