@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../RC2.3.3/.idea/RC2.3.3.iml" filepath="$PROJECT_DIR$/../RC2.3.3/.idea/RC2.3.3.iml" />
+      <module fileurl="file://D:/Python语言程序设计/auto/.idea/auto.iml" filepath="D:/Python语言程序设计/auto/.idea/auto.iml" />
       <module fileurl="file://$PROJECT_DIR$/../automation-testing/.idea/automation-testing.iml" filepath="$PROJECT_DIR$/../automation-testing/.idea/automation-testing.iml" />
       <module fileurl="file://$PROJECT_DIR$/microblog/.idea/microblog.iml" filepath="$PROJECT_DIR$/microblog/.idea/microblog.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python-exercise.iml" filepath="$PROJECT_DIR$/.idea/python-exercise.iml" />
