@@ -13,3 +13,7 @@ elif Tempstr[-1] in ['C','c']:
     print('转换后的温度是{:.2f}F'.format(f))
 else:
     print('输入的格式错误')
+
+
+
+#这是一行注释
