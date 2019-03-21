@@ -13,3 +13,5 @@ def get_min(list):
 if __name__=='__main__':
    b =  get_min(list1)
    print(b)
+
+#这是结尾
