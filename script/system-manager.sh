@@ -1,16 +1,17 @@
-#! /bin/bash
+#! /bin/sh
 #system manage
 
 menu() {
 	cat <<-EOF
 		+------------------------------------------------------+
-		|       Please a Tool				       |
-		|	h. help					       | 
-		|	f. disk partition			       |
-		|	d. filesystem mount		               |
-		|	m. memory				       |
-		|	u. system load				       |	
-		|	q. exit					       |	
+		|                   Please a Tool  		               |
+		|	h. help					                           | 
+		|	f. disk partition			                       |
+		|	d. filesystem mount		                           |
+		|	m. memory				                           |
+		|	u. system load				                       |
+		|	n. install nginx			                       |		
+		|	q. exit					                           |	
 		+------------------------------------------------------+
 	EOF
 }
@@ -35,6 +36,15 @@ do
 		u)
 			uptime
 			;;
+		n)
+			echo "开始安装NGINX"
+			dpkg -l | grep nginx
+			if [ $? -eq 0 ];then
+				status = 'systemctl status nginx'
+				echo "nginx已经安装,版本为：$status"
+			else
+				sudo apt-get install nginx
+			fi
 		q)
 		#	exit
 			break
