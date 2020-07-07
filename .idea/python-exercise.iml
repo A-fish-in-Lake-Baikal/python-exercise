@@ -7,11 +7,6 @@
     <orderEntry type="jdk" jdkName="Python 3.6 (python-exercise)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="spider" />
-    <orderEntry type="module" module-name="microblog" />
-    <orderEntry type="module" module-name="automation-testing" />
-    <orderEntry type="module" module-name="repos" />
-    <orderEntry type="module" module-name="RC2.3.3" />
-    <orderEntry type="module" module-name="auto" />
     <orderEntry type="module" module-name="auto" />
   </component>
   <component name="TestRunnerService">

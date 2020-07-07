@@ -1,5 +1,5 @@
 import requests
-from collections import Iterator,Iterable
+from collections.abc import Iterator,Iterable
 
 class WeatherIterator(object):
     def __init__(self,cities):

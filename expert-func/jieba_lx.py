@@ -9,7 +9,7 @@ import jieba
 
 def getwords(path):
     counts = {}
-    ptn = {"将军","二人","不可"}
+    ptn = {"将军","二人","不可","却说"}
     text = open(path,"r",encoding="utf-8").read()
     words = jieba.lcut(text)
     for word in words:
