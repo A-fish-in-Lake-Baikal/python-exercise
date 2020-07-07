@@ -1,0 +1,9 @@
+{
+	"delPath":["/etc/mysql/databackup/psgep","/etc/mysql/databackup/psmp"],
+	"delBySize":false,
+	"Size(G)":1,
+	"delBytime":false,
+	"days":1,
+	"delByCount":true,
+	"Count":5	
+}
