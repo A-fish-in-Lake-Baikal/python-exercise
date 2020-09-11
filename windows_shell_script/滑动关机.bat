@@ -1,0 +1,1 @@
+%windir%\System32\SlideToShutDown.exe

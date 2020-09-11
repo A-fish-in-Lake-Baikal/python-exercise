@@ -51,5 +51,3 @@ def main():
     turtle.hideturtle()
     turtle.done()
 main()
-
-
