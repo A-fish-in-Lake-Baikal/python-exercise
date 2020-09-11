@@ -1,0 +1,83 @@
+{
+  "main": {
+    "id": "d426da534c32db14",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e29fc4c987b932e",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "环境配置文档/国外代理服务器.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8c86c40e8cd3f711",
+    "type": "split",
+    "children": [
+      {
+        "id": "7352fa90ea8bd680",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a82463f38775e5a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c7ab11a095089396",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ef0019a5ca7401be",
+    "type": "split",
+    "children": [
+      {
+        "id": "994880ebf0c8d915",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "762331f596c242d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "环境配置文档/国外代理服务器.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "环境配置文档/国外代理服务器.md",
+    "A目录.md",
+    "测试文档.md",
+    "测试/普教软狗测试用例.md",
+    "Untitled.md"
+  ]
+}
