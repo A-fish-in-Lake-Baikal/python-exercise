@@ -2,7 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/../automation-testing/uiautomation/logs/testlog.log" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/Test.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/AHK/mouse.ahk" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/AHK/坐标tooltip.ahk" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/connect_mssql.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cosplay.html" charset="GBK" />
     <file url="file://$USER_HOME$/source/repos/Test/Test.py" charset="GBK" />
     <file url="file://$USER_HOME$/source/repos/Test/debug.log" charset="GBK" />
     <file url="PROJECT" charset="GBK" />

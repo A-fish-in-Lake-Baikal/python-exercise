@@ -5,7 +5,7 @@
 '''
 
 import time
-scale = 100
+scale = 11
 starttime = time.perf_counter()
 for i in range(scale+1):
     a = '*' * i

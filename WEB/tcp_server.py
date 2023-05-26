@@ -4,7 +4,7 @@ import time
 # 创建一个基于ipv4的socket
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 # 绑定监听的地址和端口
-s.bind(('192.168.1.61',9998))
+s.bind(('172.16.13.151',9998))
 # 调用listen开始监听端口,传入的参数指定等待连接的最大数量
 s.listen(5)
 print('Waiting for connection...')

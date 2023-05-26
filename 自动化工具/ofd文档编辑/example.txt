@@ -1,0 +1,362 @@
+
+
+
+[2023-05-22 14:22:34] DEBUG [XNIO-1 task-1] com.suwell.serv.mix.framework.ConvertCacheConfig#put:72 - put 20230522-142234-750878431 name RUN_TASK
+[2023-05-22 14:22:34] DEBUG [XNIO-1 task-1] com.suwell.serv.mix.nuclear.mq.ArtemisSender#send:47 - send task id = 20230522-142234-750878431
+[2023-05-22 14:22:34] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.serv.mix.nuclear.mq.ArtemisSender#onMailMessageReceived:86 - QUEUE ='QUEUE_TASK',  task is ='20230522-142234-750878431'
+[2023-05-22 14:22:34] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.serv.mix.framework.ConvertCacheConfig#put:72 - put 20230522-142234-750878431 name RUN_TASK
+[2023-05-22 14:22:34] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.ParseInvoker#call:173 - Source file is /opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/submit/2023/05/22/14/20230522-142234-750878431
+[2023-05-22 14:22:34] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.ParseInvoker#a:90 - Parser type : OFD2OFDAParser
+[2023-05-22 14:22:34] INFO  [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.BaseEDFParser#doParse:260 - Parse start, ticket : 20230522-142234-750878431
+[2023-05-22 14:22:34] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.BaseEDFParser#checkTarget:603 - Result file format : zip
+[2023-05-22 14:22:34] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.BaseEDFParser#checkOutput:645 - Result file type is output stream
+[2023-05-22 14:22:34] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.BaseEDFParser#initMaker:203 - Init COFDDocumentMaker
+[2023-05-22 14:22:34] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#prepareWork:1347 - PrepareWork
+[2023-05-22 14:22:34] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.BaseEDFParser#appendDocBody:659 - Handle DocBody...
+[2023-05-22 14:22:34] INFO  [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.COperateOFDParser#appendComponent:574 - covert.retry.count = 1
+[2023-05-22 14:22:34] INFO  [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.BaseEDFParser#appendComponent:726 - Append Component...
+[2023-05-22 14:22:34] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.BaseEDFParser#fetchFileExtend:2341 - FileLoc is Packet-SF-0.ofd, format is ofd
+[2023-05-22 14:22:34] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.AbstractParser#extractFile:382 - Extract File Packet-SF-0.ofd --> /opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/Packet-SF-0.ofd
+[2023-05-22 14:22:34] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.CommonParser#appendFile:83 - Append file Packet-SF-0.ofd <-- /opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/Packet-SF-0.ofd
+[2023-05-22 14:22:34] INFO  [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.BaseEDFParser#appendFile:827 - Append...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#appendFile:356 - It's common file
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.COFDDocumentMaker#appendOFD:37 - add file /opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/Packet-SF-0.ofd
+[2023-05-22 14:22:35] INFO  [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.BaseEDFParser#appendComponent:806 - Append Component end, cost 132 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.COperateOFDParser#operate:334 - method = custom.ofd2ofda
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.COperateOFDParser#operate:348 - arg = {"UseExternalAttachment":true,"AttachRetainWhiteList":[],"IsMergeMultiDoc":true,"NonEmbeddedFontWhiteList":[]}
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.SlaverPool#whenTake:600 - Take api**1[95, RPC#2]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#2 execute Open([</opt/suwell/suwell-convert-boot-starter-5.0.19.22.>..., {"FileType":"OFD"}]) to port[7201]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#2 receive Open(14), elapsed 59 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#2 execute Invoke([14, custom.ofd2ofda, <{"UseExternalAttachment":true,"AttachRetainWhiteLi>...]) to port[7201]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#2 receive Invoke(), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#2 execute Save([14, </opt/suwell/suwell-convert-boot-starter-5.0.19.22.>...]) to port[7201]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#2 receive Save(true), elapsed 23 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#prepareWork:1347 - PrepareWork
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#2 execute Close([14]) to port[7201]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#2 receive Close(true), elapsed 2 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.SlaverPool#back:654 - Back api**1[95, RPC#2]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.BaseEDFParser#appendOperate:1405 - Handle Operate...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.COperateOFDParser#saveResult:767 - targetzip
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.BaseEDFParser#saveResult:1952 - Normal save
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.Open ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@7206c3e0)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**1 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"ID":"D40327F61ED13E08356C949854F3D8EAEA6B803A"}}), elapsed 114 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.GetDocumentCount ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@3a38bb5e)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**1 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"Count":1}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.GetDocumentCount
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.GetAttachments ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@361aaf4c)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**1 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"Attachments":[{"Name":"保险单","Format":"pdf","CreationDate":"","ModDate":"","Size":0,"FileLoc":"0df20860-dea1-11ed-b372-6f0a73726e0a.pdf","Visible":true,"ID":9721},{"Name":"原始报文","Format":"xml","CreationDate":"","ModDate":"","Size":0,"FileLoc":"0df3b610-dea1-11ed-b372-6f0a73726e0a.xml","Visible":true,"ID":9722},{"Name":"P16172020001701000001","Format":"pdf","CreationDate":"","ModDate":"","Size":0,"FileLoc":"0df4a070-dea1-11ed-b372-6f0a73726e0a.pdf","Visible":true,"ID":9723},{"Name":"企业营业执照","Format":"jpg","CreationDate":"","ModDate":"","Size":0,"FileLoc":"0e0198c0-dea1-11ed-b372-6f0a73726e0a.jpg","Visible":true,"ID":9724},{"Name":"企业资质","Format":"jpg","CreationDate":"","ModDate":"","Size":0,"FileLoc":"0e078c30-dea1-11ed-b372-6f0a73726e0a.jpg","Visible":true,"ID":9725},{"Name":"电子申请单","Format":"pdf","CreationDate":"","ModDate":"","Size":0,"FileLoc":"0e0a9970-dea1-11ed-b372-6f0a73726e0a.pdf","Visible":true,"ID":9726},{"Name":"结构化数据文件","Format":"xml","CreationDate":"","ModDate":"","Size":0,"FileLoc":"0e0b5cc0-dea1-11ed-b372-6f0a73726e0a.xml","Visible":true,"ID":9727},{"Name":"ExternalAttachments","Format":"xml","CreationDate":"2023/04/19 18:58:03","ModDate":"2023/04/19 18:58:03","Size":774144,"FileLoc":".","Visible":true,"ID":10702}]}}), elapsed 18 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.GetAttachments
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.ExportAttachment ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@53e6bb86)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**1 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"FilePath":"File:/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/attach__1950569724015505805.pdf","Result":true}}), elapsed 2 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.ExportAttachment
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.ExportAttachment ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@17bb6bd9)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**1 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"FilePath":"File:/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/attach__7668869329425686225.xml","Result":true}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.ExportAttachment
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.ExportAttachment ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@6826c03b)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**1 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"FilePath":"File:/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/attach__9165115791291794364.pdf","Result":true}}), elapsed 12 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.ExportAttachment
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.ExportAttachment ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@ba562bc)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**1 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"FilePath":"File:/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/attach__8473107732711953161.jpg","Result":true}}), elapsed 6 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.ExportAttachment
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.ExportAttachment ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@6df9c2c5)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**1 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"FilePath":"File:/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/attach__893334640021914610.jpg","Result":true}}), elapsed 3 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.ExportAttachment
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.ExportAttachment ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@21d09900)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**1 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"FilePath":"File:/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/attach__3308973438775733139.pdf","Result":true}}), elapsed 2 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.ExportAttachment
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.ExportAttachment ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@7fa9a219)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**1 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"FilePath":"File:/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/attach__8900560361926068395.xml","Result":true}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.ExportAttachment
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.ExportAttachment ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@5fb99fd2)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**1 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"FilePath":"File:/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/attach__2375111513303712638.xml","Result":true}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.ExportAttachment
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#anyToOFD:492 - pdf -> OFD
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.x2y.X2Y#shiftWithType:273 - Shift source[type = pdf]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.SlaverPool#whenTake:600 - Take pdf2ofd**1[149, RPC#8]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#8 execute rpcx2y([{x=</opt/suwell/suwell-convert-boot-starter-5.0.19.22.>..., y=</opt/suwell/suwell-convert-boot-starter-5.0.19.22.>..., z=null}]) to port[7208]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#8 receive rpcx2y({errcode=0, errmsg=<Empty>}), elapsed 77 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.SlaverPool#back:654 - Back pdf2ofd**1[149, RPC#8]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.Open ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@7c75810a)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"ID":"7C967F8567B1DC6EF93C85B30F7AB875F39A59F0"}}), elapsed 7 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.GetAttachments ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@59c81f1d)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"Attachments":[]}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.GetAttachments
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.Close ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@6b43c757)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.Close
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#anyToOFD:492 - xml -> OFD
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#anyToOFD:524 - Convertors..
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.convert.Convertors#toOFD:221 - Convert xml to OFD
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.OFD2OFDAParser#convertAttach:199 - 转换器错误(code=-4),原因:无法获取Convert池,详情:Not found convertor process xml
+cpcns.office.parser.ParserException: 转换器错误(code=-4),原因:无法获取Convert池,详情:Not found convertor process xml
+        at cpcns.office.EDFDocumentMaker.anyToOFD(Unknown Source)
+        at com.suwell.core.apiseries.parser.OFD2OFDAParser.convertAttach(OFD2OFDAParser.java:196)
+        at com.suwell.core.apiseries.parser.OFD2OFDAParser.getConvertAttach(OFD2OFDAParser.java:158)
+        at com.suwell.core.apiseries.parser.OFD2OFDAParser.saveResult(OFD2OFDAParser.java:93)
+        at cpcns.office.parser.impl.BaseEDFParser.doParse(Unknown Source)
+        at cpcns.office.parser.impl.BaseEDFParser.parse(Unknown Source)
+        at cpcns.office.parser.ParseInvoker.call(Unknown Source)
+        at com.suwell.serv.mix.service.ConvertService.convert(ConvertService.java:128)
+        at com.suwell.serv.mix.service.ConvertService.recordConvert(ConvertService.java:98)
+        at com.suwell.serv.mix.nuclear.mq.ArtemisSender.onMailMessageReceived(ArtemisSender.java:94)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+        at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+        at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:114)
+        at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:77)
+        at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+        at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+        at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+        at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+        at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+        at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+        at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+        at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+        at java.lang.Thread.run(Thread.java:750)
+Caused by: cpcns.convert.PoolNotFoundException: Not found convertor process xml
+        at cpcns.convert.Convertors.toOFD(Convertors.java:291)
+        at cpcns.convert.Convertors.toOFD(Convertors.java:223)
+        at cpcns.office.EDFDocumentMaker.anyToOFD(Unknown Source)
+        ... 26 common frames omitted
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#anyToOFD:492 - pdf -> OFD
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.x2y.X2Y#shiftWithType:273 - Shift source[type = pdf]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.SlaverPool#whenTake:600 - Take pdf2ofd**1[149, RPC#8]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#8 execute rpcx2y([{x=</opt/suwell/suwell-convert-boot-starter-5.0.19.22.>..., y=</opt/suwell/suwell-convert-boot-starter-5.0.19.22.>..., z=null}]) to port[7208]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#8 receive rpcx2y({errcode=0, errmsg=<Empty>}), elapsed 373 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.SlaverPool#back:654 - Back pdf2ofd**1[149, RPC#8]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.Open ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@781782e2)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"ID":"3A95CDFC59815EB459707E54A76E69152C87A6C4"}}), elapsed 26 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.GetAttachments ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@283a213b)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"Attachments":[]}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.GetAttachments
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.Close ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@3113e3d6)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.Close
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.OFD2OFDAParser#ImageToOFD:211 - ext = JPG
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.OFD2OFDAParser#ImageToOFD:215 - info = {DestType=OFD, AdaptPageBorder=true}
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.SlaverPool#whenTake:600 - Take api**1[95, RPC#2]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#2 execute Open([<Empty>, <Empty>]) to port[7201]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#2 receive Open(15), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#2 execute Invoke([15, convert.Convert, <{"FilePath":"/opt/suwell/suwell-convert-boot-start>...]) to port[7201]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#2 receive Invoke(true), elapsed 41 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#2 execute Close([15]) to port[7201]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#2 receive Close(true), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.SlaverPool#back:654 - Back api**1[95, RPC#2]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.Open ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@441fe3dc)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"ID":"8FC24B84524717C99F0DAD6812C426DDB6782EB0"}}), elapsed 10 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.GetAttachments ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@db792f)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"Attachments":[]}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.GetAttachments
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.Close ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@7911a3f6)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.Close
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.OFD2OFDAParser#ImageToOFD:211 - ext = JPG
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.OFD2OFDAParser#ImageToOFD:215 - info = {DestType=OFD, AdaptPageBorder=true}
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.SlaverPool#whenTake:600 - Take api**1[95, RPC#2]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#2 execute Open([<Empty>, <Empty>]) to port[7201]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#2 receive Open(16), elapsed 0 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#2 execute Invoke([16, convert.Convert, <{"FilePath":"/opt/suwell/suwell-convert-boot-start>...]) to port[7201]
+[2023-05-22 14:22:35] DEBUG [XNIO-1 task-1] com.suwell.serv.mix.framework.ConvertCacheConfig#get:54 - get 20230522-142234-750878431 name RUN_TASK
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#2 receive Invoke(true), elapsed 24 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#2 execute Close([16]) to port[7201]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#2 receive Close(true), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.SlaverPool#back:654 - Back api**1[95, RPC#2]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.Open ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@57b2f251)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"ID":"605DCBB2D4189201C203CC35BC6C31B09FA483C5"}}), elapsed 6 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.GetAttachments ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@6c08ea78)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"Attachments":[]}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.GetAttachments
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.Close ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@3741f4d7)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.Close
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#anyToOFD:492 - pdf -> OFD
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.x2y.X2Y#shiftWithType:273 - Shift source[type = pdf]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.SlaverPool#whenTake:600 - Take pdf2ofd**1[149, RPC#8]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:175 - RPC#8 execute rpcx2y([{x=</opt/suwell/suwell-convert-boot-starter-5.0.19.22.>..., y=</opt/suwell/suwell-convert-boot-starter-5.0.19.22.>..., z=null}]) to port[7208]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.XrcCaller#call:207 - RPC#8 receive rpcx2y({errcode=0, errmsg=<Empty>}), elapsed 23 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.SlaverPool#back:654 - Back pdf2ofd**1[149, RPC#8]
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.Open ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@43bbefda)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"ID":"1B7F741B4310D85FB0E71E954EBBCA7C8346DDB7"}}), elapsed 3 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.GetAttachments ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@3dbad86)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{"Attachments":[]}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.GetAttachments
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.Close ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**2 execute Invoke([Ljava.lang.Object;@28abccaf)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:211 - API5**2 receive Invoke({"ErrorCode":0,"ErrorMessage":"","Data":{}}), elapsed 1 ms
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.Close
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#anyToOFD:492 - xml -> OFD
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#anyToOFD:524 - Convertors..
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.convert.Convertors#toOFD:221 - Convert xml to OFD
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.OFD2OFDAParser#convertAttach:199 - 转换器错误(code=-4),原因:无法获取Convert池,详情:Not found convertor process xml
+cpcns.office.parser.ParserException: 转换器错误(code=-4),原因:无法获取Convert池,详情:Not found convertor process xml
+        at cpcns.office.EDFDocumentMaker.anyToOFD(Unknown Source)
+        at com.suwell.core.apiseries.parser.OFD2OFDAParser.convertAttach(OFD2OFDAParser.java:196)
+        at com.suwell.core.apiseries.parser.OFD2OFDAParser.getConvertAttach(OFD2OFDAParser.java:158)
+        at com.suwell.core.apiseries.parser.OFD2OFDAParser.saveResult(OFD2OFDAParser.java:93)
+        at cpcns.office.parser.impl.BaseEDFParser.doParse(Unknown Source)
+        at cpcns.office.parser.impl.BaseEDFParser.parse(Unknown Source)
+        at cpcns.office.parser.ParseInvoker.call(Unknown Source)
+        at com.suwell.serv.mix.service.ConvertService.convert(ConvertService.java:128)
+        at com.suwell.serv.mix.service.ConvertService.recordConvert(ConvertService.java:98)
+        at com.suwell.serv.mix.nuclear.mq.ArtemisSender.onMailMessageReceived(ArtemisSender.java:94)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+        at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+        at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:114)
+        at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:77)
+        at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+        at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+        at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+        at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+        at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+        at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+        at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+        at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+        at java.lang.Thread.run(Thread.java:750)
+Caused by: cpcns.convert.PoolNotFoundException: Not found convertor process xml
+        at cpcns.convert.Convertors.toOFD(Convertors.java:291)
+        at cpcns.convert.Convertors.toOFD(Convertors.java:223)
+        at cpcns.office.EDFDocumentMaker.anyToOFD(Unknown Source)
+        ... 26 common frames omitted
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#anyToOFD:492 - xml -> OFD
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#anyToOFD:524 - Convertors..
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.convert.Convertors#toOFD:221 - Convert xml to OFD
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.OFD2OFDAParser#convertAttach:199 - 转换器错误(code=-4),原因:无法获取Convert池,详情:Not found convertor process xml
+cpcns.office.parser.ParserException: 转换器错误(code=-4),原因:无法获取Convert池,详情:Not found convertor process xml
+        at cpcns.office.EDFDocumentMaker.anyToOFD(Unknown Source)
+        at com.suwell.core.apiseries.parser.OFD2OFDAParser.convertAttach(OFD2OFDAParser.java:196)
+        at com.suwell.core.apiseries.parser.OFD2OFDAParser.getConvertAttach(OFD2OFDAParser.java:158)
+        at com.suwell.core.apiseries.parser.OFD2OFDAParser.saveResult(OFD2OFDAParser.java:93)
+        at cpcns.office.parser.impl.BaseEDFParser.doParse(Unknown Source)
+        at cpcns.office.parser.impl.BaseEDFParser.parse(Unknown Source)
+        at cpcns.office.parser.ParseInvoker.call(Unknown Source)
+        at com.suwell.serv.mix.service.ConvertService.convert(ConvertService.java:128)
+        at com.suwell.serv.mix.service.ConvertService.recordConvert(ConvertService.java:98)
+        at com.suwell.serv.mix.nuclear.mq.ArtemisSender.onMailMessageReceived(ArtemisSender.java:94)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+        at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+        at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:114)
+        at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:77)
+        at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+        at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+        at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+        at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+        at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+        at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+        at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+        at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+        at java.lang.Thread.run(Thread.java:750)
+Caused by: cpcns.convert.PoolNotFoundException: Not found convertor process xml
+        at cpcns.convert.Convertors.toOFD(Convertors.java:291)
+        at cpcns.convert.Convertors.toOFD(Convertors.java:223)
+        at cpcns.office.EDFDocumentMaker.anyToOFD(Unknown Source)
+        ... 26 common frames omitted
+[2023-05-22 14:22:35] INFO  [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.OFD2OFDAParser#saveResult:109 - OFD2OFDA json is {"parameters":{"FilePath":"File:/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/old_093fbe11-0474-4fdd-92bd-ea65727cdf5a.ofd","TargetFilePath":"File:/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/new__3023810494110699251.ofd","UseExternalAttachment":true,"IsMergeMultiDoc":true,"OutputDirectory":"/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/outputDirectory/","AttachmentRetainWhiteList":[],"DocsAttachmentConvertedInfo":[{"DocumentIndex":0,"ConvertedAttachments":[{"AttachmentName":"0df20860-dea1-11ed-b372-6f0a73726e0a.pdf","FileLoc":"/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/AnyToOFD_3479651731546109283.ofd"},{"AttachmentName":"0df4a070-dea1-11ed-b372-6f0a73726e0a.pdf","FileLoc":"/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/AnyToOFD_3571762832180688180.ofd"},{"AttachmentName":"0e0198c0-dea1-11ed-b372-6f0a73726e0a.jpg","FileLoc":"/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/ImageToOFD__4737503475760226411.ofd"},{"AttachmentName":"0e078c30-dea1-11ed-b372-6f0a73726e0a.jpg","FileLoc":"/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/20230522-142234-750878431/ImageToOFD__3933294042545525775.ofd"},{"AttachmentName":"0e0a9970-dea1-11ed-b372-6f0a73726e0a.pdf","FileLoc":"/opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/temp/AnyToOFD_7362173659771080888.ofd"}]}],"NonEmbeddedFontWhiteList":[]},"group":"stdCheck","method":"OFD2OFDA"}
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command stdCheck.OFD2OFDA ...
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@10747221)
+[2023-05-22 14:22:35] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:36] WARN  [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:203 - Failed to create input stream: 拒绝连接 (Connection refused)
+[2023-05-22 14:22:36] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:209 - API5**1 receive Invoke error, elapsed 274 ms
+[2023-05-22 14:22:36] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command stdCheck.OFD2OFDA
+[2023-05-22 14:22:36] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#start:119 - Start command dom.Close ...
+[2023-05-22 14:22:36] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:175 - API5**1 execute Invoke([Ljava.lang.Object;@cad9aca)
+[2023-05-22 14:22:36] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:196 -   with reply timeout 3000000
+[2023-05-22 14:22:36] WARN  [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:203 - Failed to read server's response: 拒绝连接 (Connection refused)
+[2023-05-22 14:22:36] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.process.XRC#call:209 - API5**1 receive Invoke error, elapsed 0 ms
+[2023-05-22 14:22:36] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.rpc.api.Cmd#finish:126 - Finish command dom.Close
+[2023-05-22 14:22:36] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.EDFDocumentMaker#finishWork:222 - Maker finish work
+[2023-05-22 14:22:36] INFO  [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.core.apiseries.parser.COperateOFDParser#windup:755 - windup
+[2023-05-22 14:22:36] INFO  [org.springframework.jms.JmsListenerEndpointContainer#0-2] cpcns.office.parser.impl.BaseEDFParser#doParse:501 - Parse end, ticket : 20230522-142234-750878431, cost 1340 ms
+[2023-05-22 14:22:36] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.serv.mix.service.ConvertService#convert:141 - doFMH...
+[2023-05-22 14:22:36] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.serv.mix.framework.ConvertCacheConfig#put:72 - put 20230522-142234-750878431 name TASK
+[2023-05-22 14:22:36] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.serv.mix.framework.ConvertCacheConfig#evict:78 - evict 20230522-142234-750878431 name RUN_TASK
+[2023-05-22 14:22:36] ERROR [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.serv.mix.nuclear.mq.ArtemisSender#onMailMessageReceived:96 - 转换器错误(code=-4),原因:其他异常引起的转换失败,详情:com.suwell.rpc.process.ExecuteException: org.apache.xmlrpc.XmlRpcException: Failed to create input stream: 拒绝连接 (Connection refused)
+com.suwell.serv.mix.ex.ResultException: 转换器错误(code=-4),原因:其他异常引起的转换失败,详情:com.suwell.rpc.process.ExecuteException: org.apache.xmlrpc.XmlRpcException: Failed to create input stream: 拒绝连接 (Connection refused)
+        at com.suwell.serv.mix.service.ConvertService.convertEx(ConvertService.java:302)
+        at com.suwell.serv.mix.service.ConvertService.convert(ConvertService.java:133)
+        at com.suwell.serv.mix.service.ConvertService.recordConvert(ConvertService.java:98)
+        at com.suwell.serv.mix.nuclear.mq.ArtemisSender.onMailMessageReceived(ArtemisSender.java:94)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+        at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+        at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:114)
+        at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:77)
+        at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+        at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+        at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+        at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+        at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+        at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+        at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+        at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+        at java.lang.Thread.run(Thread.java:750)
+[2023-05-22 14:22:36] DEBUG [org.springframework.jms.JmsListenerEndpointContainer#0-2] com.suwell.serv.mix.util.TaskTools#clean:120 - delete /opt/suwell/suwell-convert-boot-starter-5.0.19.22.1104.1800/convertTemp/submit/2023/05/22/14/20230522-142234-750878431 failed !
+[2023-05-22 14:22:36] DEBUG [XNIO-1 task-1] com.suwell.serv.mix.framework.ConvertCacheConfig#get:54 - get 20230522-142234-750878431 name RUN_TASK
+[2023-05-22 14:22:36] DEBUG [XNIO-1 task-1] com.suwell.serv.mix.framework.ConvertCacheConfig#get:54 - get 20230522-142234-750878431 name TASK
+[2023-05-22 14:23:00] DEBUG [scheduling-1] com.suwell.serv.mix.service.MixSchedule#cleanMixCache:57 - Mix Clean temp
+[2023-05-22 14:23:30] DEBUG [scheduling-1] com.suwell.serv.mix.service.MixSchedule#cleanMixCache:57 - Mix Clean temp
+[2023-05-22 14:24:00] DEBUG [scheduling-1] com.suwell.serv.mix.service.MixSchedule#cleanMixCache:57 - Mix Clean temp

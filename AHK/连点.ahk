@@ -3,13 +3,6 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-
-
-
-
-
-
-
 F2::
 	Sleep,300
 	loop
@@ -17,7 +10,7 @@ F2::
 		Send,1{Click}
 		Sleep,70
 		if GetKeyState("F2")
-		{
+		{1111
 			break
 		}
 	}
