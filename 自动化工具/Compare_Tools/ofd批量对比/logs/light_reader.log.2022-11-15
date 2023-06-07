@@ -1,0 +1,12 @@
+2022-11-15 17:05:37,409 - Compare_Test - INFO - api5接口地址：http://172.16.14.104:4018/compare_file/
+2022-11-15 17:05:37,440 - Compare_Test - INFO - 200
+2022-11-15 17:05:37,440 - Compare_Test - INFO - 地址访问正常
+2022-11-15 17:05:37,441 - Compare_Test - INFO - 两个文件夹内的文件名称一致，开始比对
+2022-11-15 17:05:37,441 - Compare_Test - INFO - C:\\Users\\jingj\\Downloads\\out\\merage1\\1.jpg
+2022-11-15 17:05:37,441 - Compare_Test - INFO - C:\\Users\\jingj\\Downloads\\out\\merage10\\1.jpg
+2022-11-15 17:07:20,227 - Compare_Test - INFO - api5接口地址：http://172.16.14.104:4018/compare_file/
+2022-11-15 17:07:20,255 - Compare_Test - INFO - 200
+2022-11-15 17:07:20,256 - Compare_Test - INFO - 地址访问正常
+2022-11-15 17:07:20,256 - Compare_Test - INFO - 两个文件夹内的文件名称一致，开始比对
+2022-11-15 17:07:20,256 - Compare_Test - INFO - C:\\Users\\jingj\\Downloads\\out\\merage1\\1.jpg
+2022-11-15 17:07:20,256 - Compare_Test - INFO - C:\\Users\\jingj\\Downloads\\out\\merage10\\1.jpg

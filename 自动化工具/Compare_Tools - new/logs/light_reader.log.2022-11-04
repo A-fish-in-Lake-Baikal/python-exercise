@@ -1,0 +1,17 @@
+2022-11-04 16:13:39,310 - Compare_Test - INFO - api5接口地址：http://172.16.14.104:4018/compare_file/
+2022-11-04 16:15:07,906 - Compare_Test - INFO - api5接口地址：http://172.16.14.104:4018/compare_file/
+2022-11-04 16:45:32,503 - Compare_Test - INFO - api5接口地址：http://172.16.14.104:4018/compare_file/
+2022-11-04 16:45:33,543 - Compare_Test - ERROR - 地址访问异常，请检查！
+2022-11-04 16:45:46,825 - Compare_Test - INFO - api5接口地址：http://172.16.14.104:4018/compare_file/
+2022-11-04 16:45:47,871 - Compare_Test - ERROR - 地址访问异常，请检查！
+2022-11-04 16:46:09,103 - Compare_Test - INFO - api5接口地址：http://172.16.14.104:4018/compare_file/
+2022-11-04 16:46:09,140 - Compare_Test - INFO - 405
+2022-11-04 16:46:09,140 - Compare_Test - ERROR - 地址访问异常，请检查！
+2022-11-04 16:47:02,057 - Compare_Test - INFO - api5接口地址：http://172.16.14.104:4018/compare_file/
+2022-11-04 16:47:02,115 - Compare_Test - INFO - 404
+2022-11-04 16:47:02,115 - Compare_Test - ERROR - 地址访问异常，请检查！
+2022-11-04 16:47:54,522 - Compare_Test - INFO - api5接口地址：http://172.16.14.104:4018/compare_file/
+2022-11-04 16:47:54,633 - Compare_Test - INFO - 200
+2022-11-04 16:47:54,633 - Compare_Test - INFO - 地址访问正常
+2022-11-04 16:47:54,635 - Compare_Test - INFO - D:\\TPS\\2022-11-03-105553_测试结果.xls
+2022-11-04 16:47:54,635 - Compare_Test - INFO - D:\\TPS\\2022-11-03-105553_测试结果.xls

@@ -1,0 +1,11 @@
+2023-06-02 10:54:14,114 - Compare_Test - INFO - api5接口地址：http://172.16.14.104:4018/compare_file/
+2023-06-02 10:54:14,132 - Compare_Test - INFO - 200
+2023-06-02 10:54:14,132 - Compare_Test - INFO - 地址访问正常
+2023-06-02 10:54:14,133 - Compare_Test - ERROR - 两个文件夹内的文件内容不一致，请检查
+2023-06-02 10:54:14,136 - Compare_Test - INFO - 对比完成
+2023-06-02 10:55:05,195 - Compare_Test - INFO - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36
+2023-06-02 10:55:18,877 - Compare_Test - INFO - api5接口地址：http://172.16.14.104:4018/compare_file/
+2023-06-02 10:55:18,941 - Compare_Test - INFO - 200
+2023-06-02 10:55:18,942 - Compare_Test - INFO - 地址访问正常
+2023-06-02 10:55:18,943 - Compare_Test - ERROR - 两个文件夹内的文件内容不一致，请检查
+2023-06-02 10:55:19,010 - Compare_Test - INFO - 对比完成

@@ -1,0 +1,5 @@
+2023-03-01 20:01:54,747 - Compare_Test - INFO - api5接口地址：http://172.16.14.104:4018/compare_file/
+2023-03-01 20:01:54,767 - Compare_Test - INFO - 200
+2023-03-01 20:01:54,767 - Compare_Test - INFO - 地址访问正常
+2023-03-01 20:01:54,768 - Compare_Test - ERROR - 两个文件夹内的文件内容不一致，请检查
+2023-03-01 20:01:54,769 - Compare_Test - INFO - 对比完成

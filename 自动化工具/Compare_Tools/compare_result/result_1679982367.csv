@@ -1,0 +1,12 @@
+基准文件夹,新文件夹,对比结果
+D:\\ofd\\10.第三方票据.OFD,D:\\ofd1\\10.第三方票据.OFD,一致
+D:\\ofd\\4.ofd,D:\\ofd1\\4.ofd,一致
+D:\\ofd\\42.横向文本.ofd,D:\\ofd1\\42.横向文本.ofd,一致
+D:\\ofd\\45.脱密不变黑.ofd,D:\\ofd1\\45.脱密不变黑.ofd,一致
+D:\\ofd\\6.ofd,D:\\ofd1\\6.ofd,一致
+D:\\ofd\\auto4.ofd,D:\\ofd1\\auto4.ofd,一致
+D:\\ofd\\auton1.ofd,D:\\ofd1\\auton1.ofd,一致
+D:\\ofd\\auton2.ofd,D:\\ofd1\\auton2.ofd,一致
+D:\\ofd\\Packet-SF-0.ofd,D:\\ofd1\\Packet-SF-0.ofd,对比结果异常，返回值：500
+D:\\ofd\\文本.ofd,D:\\ofd1\\文本.ofd,一致
+D:\\ofd\\红头未变黑文档.ofd,D:\\ofd1\\红头未变黑文档.ofd,一致
